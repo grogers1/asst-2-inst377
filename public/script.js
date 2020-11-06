@@ -1,8 +1,13 @@
 function findMatches(wordToMatch, restaurantList) {
   // process your restaurants here!
+  wordToMatch = wordToMatch.trim();
+  if (!wordToMatch || wordToMatch.length == 0) {
+    return [];
+  }
   const list = restaurantList.filter(restaurant => {
     const regex = new RegExp(wordToMatch, 'gi');
-    return restaurant.category.match(regex) || restaurant.zip.match(regex);
+    return restaurant.category.match(regex) || restaurant.zip.match(regex)
+      || restaurant.name.match(regex);
   });
   return list;
 }
