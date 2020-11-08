@@ -72,6 +72,7 @@ body {
 .flex-outer > li > label + *,
 .flex-inner {
   flex: 1 0 225px;
+  padding: 2px;
 }
 
 .flex-outer button {
