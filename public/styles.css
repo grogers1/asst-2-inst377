@@ -2,9 +2,9 @@
 body {
   line-height: 1;
   font-size: 15px;
-  color: antiquewhite;
+  color: aqua;
   padding: 0px;
-  background: aqua;
+  background: antiquewhite;
 }
 
 .wrapper {
@@ -50,7 +50,7 @@ body {
 
 #navContainer li {
   list-style: none;
-  background: whitesmoke;
+  background: rgb(133, 70, 70);
   border: solid 1px #469920;
 }
 
