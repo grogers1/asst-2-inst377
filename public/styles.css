@@ -9,7 +9,7 @@ body {
 
 .wrapper {
   display: flex;
-  width: 60%;
+  width: 40%;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
@@ -72,6 +72,7 @@ body {
 .flex-outer > li > label + *,
 .flex-inner {
   flex: 1 0 225px;
+  padding: 2px;
 }
 
 .flex-outer button {
