@@ -9,7 +9,7 @@ body {
 
 .wrapper {
   display: flex;
-  width: 60%;
+  width: 40%;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
