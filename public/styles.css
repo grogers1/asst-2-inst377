@@ -50,7 +50,7 @@ body {
 
 #navContainer li {
   list-style: none;
-  background: whitesmoke;
+  background: rgb(133, 70, 70);
   border: solid 1px #469920;
 }
 
