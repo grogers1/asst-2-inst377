@@ -1,14 +1,29 @@
 /*CSS*/
 body {
-  background: #fed6ad;
+  line-height: 1;
+  font-size: 15px;
+  color: aqua;
+  padding: 0px;
+  background: #7b7167;
 }
 
 .wrapper {
   display: flex;
+  width: 60%;
+  align-items: center;
+  flex-wrap: wrap;
   flex-direction: column;
+  background: #7b7167;
 }
 
 .container {
+  position: relative;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100%;
 }
 
