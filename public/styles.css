@@ -146,3 +146,36 @@ h1 {
     margin-bottom: 15px;
 }
 
+/* iphone mobile */
+@media (min-width: 320px) {
+  input.textentry {
+    min-width: 270px;
+  }
+  
+  #navContainer {
+    min-width: 270px;
+  }
+}
+
+/* android mobile */
+@media (min-width: 400px) {
+  input.textentry {
+    min-width: 330px;
+  }
+  
+  #navContainer {
+    min-width: 330px;
+  }
+}
+
+/* ipad, laptop, big screen */
+@media (min-width: 700px) {
+  input.textentry {
+    min-width: 400px;
+  }
+  
+  #navContainer {
+    min-width: 400px;
+  }
+}
+
