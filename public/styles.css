@@ -1,33 +1,14 @@
 /*CSS*/
 body {
-main
-  line-height: 1;
-  font-size: 15px;
-  color: aqua;
-  padding: 0px;
-  background: darkolivegreen;
-=======
   background: #fbf6f0;
-chi_asst2
 }
 
 .wrapper {
   display: flex;
-  width: 40%;
-  align-items: center;
-  flex-wrap: wrap;
   flex-direction: column;
-  background: #7b7167;
 }
 
 .container {
-  position: relative;
-  right: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100%;
 }
 
@@ -62,13 +43,9 @@ input.textentry {
 
 #navContainer li {
   list-style: none;
-main
-  background: rgb(133, 70, 70);
-=======
   /*background: #ffffff; */
   background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #fbf6f0);
   
-chi_asst2
   border: solid 1px #469920;
   border-radius: 5px;
   padding: 10px;
@@ -100,7 +77,6 @@ chi_asst2
 .flex-outer > li > label + *,
 .flex-inner {
   flex: 1 0 225px;
-  padding: 2px;
 }
 
 .flex-outer button {
