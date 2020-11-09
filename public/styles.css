@@ -1,10 +1,14 @@
 /*CSS*/
 body {
+main
   line-height: 1;
   font-size: 15px;
   color: aqua;
   padding: 0px;
   background: darkolivegreen;
+=======
+  background: #fbf6f0;
+chi_asst2
 }
 
 .wrapper {
@@ -29,29 +33,53 @@ body {
 
 .header {
   color: #fff;
+  background-color: #561b6f;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  margin: 0;
-  margin-bottom: 5px;
-  padding: 4px 8px;
-  border-radius: 4px;
 }
 
-.textentry {
-  min-width: 300px;
+.header h4, .header h5 {
+  margin: 5px;
+}
+
+.search-bar {
+  background-color: #ffa800;
+  
+}
+
+input.textentry {
+  width: 90%;
+  margin-top: 2%; 
+  margin-left: 2%;
+  border-radius: 25px;
 }
 
 #navContainer {
-  width: 100%;
+  width: 90%;
+  margin-left: 2%;
 }
 
 #navContainer li {
   list-style: none;
+main
   background: rgb(133, 70, 70);
+=======
+  /*background: #ffffff; */
+  background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #fbf6f0);
+  
+chi_asst2
   border: solid 1px #469920;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#navContainer li .name {
+  font-weight: bold;
+}
+
+#navContainer li .category {
+  
 }
 
 .flex-outer li,
